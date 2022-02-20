@@ -1,0 +1,23 @@
+#chessboard{
+    outline-width: 2px;
+    outline-style: solid;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    width: 800px;
+    height: 800px;
+    outline-color: rgb(0, 0, 0);
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+
+.black-square{
+    background-color: black;
+}
+
+.white-square{
+    background-color: rgb(233, 233, 233);
+}
